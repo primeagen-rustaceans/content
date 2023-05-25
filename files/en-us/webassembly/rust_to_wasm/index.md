@@ -120,7 +120,7 @@ extern {
 }
 ```
 
-The bit inside the `#[ ]` is called an "attribute", and it modifies the next statement somehow. In this case, that statement is an `extern`, which tells Rust that we want to call some externally defined functions. The attribute says "wasm-bindgen knows how to find these functions".
+The thing inside the `#[ ]` is called an "attribute", and it modifies the next statement somehow. In this case, that statement is an `extern`, which tells Rust that we want to call some externally defined functions. The attribute says "wasm-bindgen knows how to find these functions".
 
 The third line is a function signature, written in Rust. It says "the `alert` function takes one argument, a string named `s`."
 
